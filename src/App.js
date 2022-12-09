@@ -1,23 +1,34 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
+import Title from './components/Title';
 
 // import Comp, { Comp2, Comp3 } from './components/Multi';
 // import First from './components/First';
-import MinMax from './components/MinMax';
-import Random from './components/Random';
+// import MinMax from './components/MinMax';
+// import Random from './components/Random';
 
 export default () => {
   return (
     <View style={style.App}>
-      {/* Passando String */}
-      {/* <MinMax min="3" max="30" /> */}
-      {/* Passando Number */}
-      {/* <MinMax min={10} max={100} /> */}
+      <Title main="Cadastro de Produtos" secondary="Tela de Cadastro" />
+
+      {/* 
       <Random min={10} max={100} />
-      {/* <Comp />
+      <Random min={10} max={100} />
+      <Random min={10} max={100} />
+      <Random min={10} max={100} />
+
+      Passando String
+      <MinMax min="3" max="30" /> 
+
+      Passando Number 
+      <MinMax min={10} max={100} />
+
+      <Comp />
       <Comp2 />
       <Comp3 />
-      <First /> */}
+      <First /> 
+      */}
     </View>
   );
 };
