@@ -1,7 +1,8 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import Title from './components/Title';
+import Button from './components/Button';
 
+// import Title from './components/Title';
 // import Comp, { Comp2, Comp3 } from './components/Multi';
 // import First from './components/First';
 // import MinMax from './components/MinMax';
@@ -10,9 +11,9 @@ import Title from './components/Title';
 export default () => {
   return (
     <View style={style.App}>
-      <Title main="Cadastro de Produtos" secondary="Tela de Cadastro" />
-
+      <Button />
       {/* 
+      <Title main="Cadastro de Produtos" secondary="Tela de Cadastro" />
       <Random min={10} max={100} />
       <Random min={10} max={100} />
       <Random min={10} max={100} />
