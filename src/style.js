@@ -13,4 +13,10 @@ export default StyleSheet.create({
     fontSize: 14,
     textAlign: 'center',
   },
+  inline: {
+    width: 100,
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+  },
 });

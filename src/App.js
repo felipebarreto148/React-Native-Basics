@@ -1,7 +1,8 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import Button from './components/Button';
+import Counter from './components/Counter';
 
+// import Button from './components/Button';
 // import Title from './components/Title';
 // import Comp, { Comp2, Comp3 } from './components/Multi';
 // import First from './components/First';
@@ -11,8 +12,9 @@ import Button from './components/Button';
 export default () => {
   return (
     <View style={style.App}>
-      <Button />
+      <Counter initial={10} step={5} />
       {/* 
+      <Button />
       <Title main="Cadastro de Produtos" secondary="Tela de Cadastro" />
       <Random min={10} max={100} />
       <Random min={10} max={100} />
